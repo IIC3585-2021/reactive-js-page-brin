@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.0/Rx.min.js"></script>
+    <script type="module" src="index.js"></script>
+    <script>
+    window.onerror = function (message, url, line, column, error) {
+      console.log(message, url, line, column, error);
+    }
+    </script>
+    <div class="centered-text">
+      <h1> Tarea 2 IIC3585 - Spaceship Game </h1>
+      <h5> by: Noemi Crosby, Maximiliano Friedl & Tomas Mellado </h5>
+    </div>
+    <div id="button-container">
+      <button id="start-button" class="maroon"> Start game </button>
+      <button id="reset-button" class="maroon"> Reset </button>
+    </div>
+    <div>
+      <div id="end-container">
+        <h3 class="centered-text text-spaced"><span id="end"></span></h3>
+      </div>
+      <h3 class="centered-text text-spaced">Score: <span id="score"></span></h3>
+    </div>
+    <div id="board-container">
+    </div>
+  </body>
+</html>

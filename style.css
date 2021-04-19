@@ -1,0 +1,83 @@
+/* color palette by coolors.co:
+https://coolors.co/d0d0d0-000000-b9314f-0c7489-5d737e */
+
+#board-container {
+  display: block;
+  grid-template-columns: repeat(100, auto);
+  grid-template-rows: repeat(100, auto);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 500px;
+  width: 500px;
+  border: black 5px solid;
+  background-color: #D0D0D0;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.text-spaced {
+  letter-spacing: 3px;
+  color: #0C7489;
+}
+
+#end-container {
+  min-height: 22px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+}
+
+.maroon {
+  background-color: #B9314F;
+}
+
+.teal {
+  background-color: #0C7489;
+}
+
+.cadet {
+  background-color: #5D737E;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
